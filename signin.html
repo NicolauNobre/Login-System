@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro na Games Library</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 text-center" id="titulo">
+            <header>
+                <h1>Games Library</h1>
+                <h4>Crie sua conta</h4>
+            </header>
+        </div>
+        <div class="col-4" id="formulario">
+            <form>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input class="form-control" type="email" autocomplete="off" name="email" id="email" placeholder="Digite seu Email">
+                            </div>
+                            <div class="callout-info d-none">
+                                Email inválido ou Inexistente
+                            </div>
+                            <div class="form-group">
+                                <label for="senha">Senha</label>
+                                <input class="form-control" type="password" name="senha" id="senha" placeholder="Digite sua Senha">
+                            </div>
+                            <div class="form-group text-center">
+                                <button id='input_btn' type="button" onclick = "signIn()" class="btn btn-info form-control">Cadastrar</button>
+                            </div>
+                            <div class="form-group text-center">
+                                <a href="login.html"><button type="button" class="btn btn-outline-secondary">Login</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="conteudo">
+        <div class="container">
+        
+        </div>
+    </div>
+    <div class="final">
+        &copy; Games Library | Designed by Games Library | Games Library
+    </div>
+</div>
+
+</body>
+
+</html>
